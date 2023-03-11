@@ -1,0 +1,23 @@
+   .pagination {
+}
+   .pagination ul{}
+
+   .pagination ul li div ,
+   .pagination ul li:not(:first-child,:last-child) button {
+background-color: #E5E5E5;
+font-weight: 500;
+font-size: 11px;
+line-height: 14px;
+font-weight: 500;
+font-size: 11px;
+line-height: 14px;
+width: 32px;
+height: 32px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+   .pagination ul li button.Mui-selected {
+background-color: #2419BE;
+color:#fff ;
+}

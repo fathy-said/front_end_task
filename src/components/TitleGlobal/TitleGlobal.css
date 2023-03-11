@@ -1,0 +1,26 @@
+.title-global{
+margin-top: 64px;
+
+}
+.title-global h3{
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+color: #000000;
+margin-bottom: 8px;
+
+}
+
+
+.title-global .stack{
+
+background-color: #FFFFFF;
+padding: 8px;
+border-radius: 4px;
+
+}
+.title-global .stack ol{
+
+gap: 8px;
+
+}

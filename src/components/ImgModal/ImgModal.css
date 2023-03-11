@@ -1,0 +1,32 @@
+.img-modal {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+
+.img-modal .container span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  z-index: 50;
+  cursor: pointer;
+}
+
+.img-modal .container .box-img .close {
+position: absolute;
+top: 16px;
+right: 16px;
+background-color: #fff;
+width: 32px;
+height: 32px;
+}
+
+@media (max-width: 1280px) {
+  .img-modal .container span {
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+
+
+  }
+}
